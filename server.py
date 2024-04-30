@@ -1,7 +1,7 @@
 import socket
 
 server = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
-server.bind(("f4:4e:fc:05:1b:4a", 4))
+server.bind(("f4:4e:fc:05:1b:4a", 8))
 server.listen(1)
 
 client, addr = server.accept()

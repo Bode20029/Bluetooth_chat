@@ -1,7 +1,7 @@
 import socket
 
 client= socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
-client.connect(("f4:4e:fc:05:1b:4a", 4))
+client.connect(("f4:4e:fc:05:1b:4a", 8))
 
 try:
     while True:
